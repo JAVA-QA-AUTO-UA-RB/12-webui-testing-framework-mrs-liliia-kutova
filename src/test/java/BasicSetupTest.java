@@ -19,6 +19,8 @@ public class BasicSetupTest {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
 
+        options.addArguments("--incognito");
+
 
         browser = new ChromeDriver(options);
         browser.manage().window().maximize();
