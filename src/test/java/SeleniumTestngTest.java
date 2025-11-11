@@ -160,23 +160,24 @@ public class SeleniumTestngTest extends BasicSetupTest {
         WebDriverWait wait = new WebDriverWait(browser, Duration.ofSeconds(10));
 
         WebElement slider = wait.until(
-                ExpectedConditions.presenceOfElementLocated(By.cssSelector("input[type='range']"))
-                );
-
+                ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type='range']"))
+        );
 
         WebElement valueDisplay = browser.findElement(By.id("range"));
 
-        String initialValue = valueDisplay.getText();
-        Actions actions = new Actions(browser);
+        slider.click();
 
-        int width = slider.getSize().width;
-        actions.clickAndHold(slider).moveByOffset(width / 2, 0).release().perform();
-        String newValue = valueDisplay.getText();
-        Assert.assertNotEquals(newValue, initialValue,
-                "Значення слайдера змінилося після перетягування");
-        System.out.println("Початкове : " + initialValue + " | Нове: " + newValue);
+        while (!valueDisplay.getText().equals("3")){
+            slider.sendKeys(org.openqa.selenium.Keys.ARROW_RIGHT);
+        }
+
+
+        Assert.assertEquals(valueDisplay.getText(), "3",
+                "Значення слайдера змінилося на 3");
+        System.out.println(" Слайдер встановлено на " + valueDisplay.getText());
     }
 }
+
 
 
 
