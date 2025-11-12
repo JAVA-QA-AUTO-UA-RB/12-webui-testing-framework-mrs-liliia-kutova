@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
+    <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AbTestingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddRemoveElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SecureAreaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AbTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CheckboxesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DragAndDropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HorizontalSliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_CUCUMBER.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CUCUMBER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_TEST" beforeDir="false" afterPath="$PROJECT_DIR$/README_TEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest_OLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +81,13 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AbTestingTest.executor": "Run",
+    "TestNG.AddRemoveElementsTest.executor": "Run",
+    "TestNG.C:/Users/Lilia/Documents/GitHub/12-webui-testing-framework-mrs-liliia-kutova/testng.xml.executor": "Run",
+    "TestNG.CheckboxesTest.executor": "Run",
+    "TestNG.CheckboxesTest.testSelectAllCheckboxes.executor": "Run",
+    "TestNG.DragAndDropTest.executor": "Run",
+    "TestNG.HorizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
     "TestNG.SeleniumTestngTest.addCheckboxTest.executor": "Run",
     "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
@@ -64,7 +97,7 @@
     "TestNG.SeleniumTestngTest.loginLogoutTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
     "TestNG.SeleniumTestngTest.sliderElementTest.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/page-objects-refactor",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -80,11 +113,27 @@
       <recent name="C:\Users\Lilia\Documents\GitHub\12-webui-testing-framework-mrs-liliia-kutova" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest">
-    <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Lilia/Documents/GitHub/12-webui-testing-framework-mrs-liliia-kutova/testng.xml">
+    <configuration name="C:/Users/Lilia/Documents/GitHub/12-webui-testing-framework-mrs-liliia-kutova/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckboxesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,11 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.dragAndDropElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxesTest.testSelectAllCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="dragAndDropElementsTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckboxesTest" />
+      <option name="METHOD_NAME" value="testSelectAllCheckboxes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,36 +159,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.dropdownSelectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="dropdownSelectionTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DragAndDropTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.loginLogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="loginLogoutTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTestngTest.sliderElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="sliderElementTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.loginLogoutTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.sliderElementTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.dragAndDropElementsTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.dropdownSelectionTest" />
+        <item itemvalue="TestNG.C:/Users/Lilia/Documents/GitHub/12-webui-testing-framework-mrs-liliia-kutova/testng.xml" />
+        <item itemvalue="TestNG.HorizontalSliderTest" />
+        <item itemvalue="TestNG.DragAndDropTest" />
+        <item itemvalue="TestNG.CheckboxesTest" />
+        <item itemvalue="TestNG.CheckboxesTest.testSelectAllCheckboxes" />
       </list>
     </recent_temporary>
   </component>
@@ -246,16 +299,5 @@
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;This commit deletes the autograding setup files, including the `autograding.json` and associated GitHub Actions workflow (`github-classroom.yml`). These changes likely indicate a shift away from automated grading or a migration to a different tooling setup." />
     <MESSAGE value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
     <option name="LAST_COMMIT_MESSAGE" value="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
